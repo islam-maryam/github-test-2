@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+    </style>
+
+</head>
+
+<body class=" bg-gradient-to-r from-blue-300 via-purple-100 to-blue-300">
+    <div 
+    class="landing__section flex justify-center">
+        <div class="w-[80%] h-[100vh]">
+            <div class="nav flex justify-between my-10">
+                <h1 class="text-1xl md:text-2xl lg:text-4xl text-purple-950 font-bold">
+                    John Doe
+                </h1> 
+                <button type="button" id="humberger" class="cursor-pointer off h-[30px] w-[80px] bg-red-200 md:hidden">
+                    manuber
+                </button>
+                <ul id="Manubar" class="hidden md:flex ">
+                    <li
+                        class="ml-2 text-3xl text-purple-950 hover:text-gray-400 hover:underline hover:underline-offset-[20px]">
+                        <a href="#about">About</a>
+                    </li>
+                    <li
+                        class="ml-2 text-3xl text-purple-950 hover:text-gray-400 hover:underline hover:underline-offset-[20px]">
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li
+                        class="ml-2 text-3xl text-purple-950 hover:text-gray-400 hover:underline hover:underline-offset-[20px]">
+                        <a href="#project">Project</a>
+                    </li>
+                    <li
+                        class="ml-2 text-3xl text-purple-950 hover:text-gray-400 hover:underline hover:underline-offset-[20px]">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero__section min-h-[80vh] w-[80%] flex-row md:flex lg:flex justify-center  items-center gap-[70px] mx-auto  my-auto">
+                <img class="animate-bounce border-[5px] border-purple-950 rounded-full border-double mt-[120px] ml-[40px] flex justify-center w-[200px] h-[200px] md:w-[290px]  md:h-[290px]"
+                        src="https://tangerine-hummingbird-1479b6.netlify.app/assets/profile-pic.png" alt="" srcset="">
+                    <div>
+                        <h1 class="text-purple-950 font-bold text-center">Hello, I'm</h1>
+                        <h1 class="text-purple-950 font-extrabold text-4xl text-center my-[10px]">John Doe</h1>
+                        <h1 class="text-purple-400 text-center text-bold text-3xl text-gray-400">Frontend Developer</h1>
+    
+                        <div class="my-[20px] flex gap-[20px]">
+    
+                            <fieldset>
+    
+                                <input id="" class="peer/draft" type="radio" name="status" checked />
+                                <label for="" class="peer-checked/draft:text-sky-500">Download CV</label>
+    
+                                <input id="" class="peer/published" type="radio" name="status" />
+                                <label for="" class="peer-checked/published:text-sky-500">Contact info</label>
+    
+                                <div class="hidden peer-checked/draft:block">Click this button to view my CV.</div>
+                                <div class="hidden peer-checked/published:block">Use this site to contact with me.</div>
+                            </fieldset>
+                        </div>
+    
+                        <div class="flex gap-[15px] justify-center">
+                            <img class="w-[30px] animate-spin"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/linkedin.png" alt="" srcset="">
+                            <img class="w-[30px] animate-spin"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/github.png" alt="" srcset="">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="about__section  flex justify-center my-[100px]">
+        <div class="w-[80%]">
+            <p class="text-center animate-ping text-fuchsia-950">
+                Get To Know More
+            </p>
+            <h1
+                class="decoration-double underline decoration-fuchsia-950 decoration-2 underline-offset-8 text-fuchsia-950 text-center text-6xl text-bold my-[15px]">
+                About Me
+            </h1>
+
+            <div class=" md:flex gap-[50px] my-[80px]">
+                <img class="w-[200px] h-[200px] my-auto ml-[40px] md:w-[350px] md:h-[350px]  rounded-[30px] border-fuchsia-400 border-3 border hover:opacity-55 hover:text "
+                    src="https://tangerine-hummingbird-1479b6.netlify.app/assets/about-pic.png" alt="">
+                <div>
+                    <div class="flex gap-[30px] md:gap-[50px] my-[50px] ">
+                        <div class=" justify-center w-1/2 border border-fuchsia-400 border-3 p-[20px] rounded-[30px]">
+                            <div class="justify-center h-[30px] w-[30px]"><img
+                                    src="https://tangerine-hummingbird-1479b6.netlify.app/assets/experience.png" alt=""
+                                    srcset=""></div>
+                            <h1 class="text-center font-extrabold text-fuchsia-950">Experience</h1>
+                            <h2 class="text-center text-fuchsia-400">2+ Years</h2>
+                            <h3 class="text-center text-fuchsia-400">Frontend Development</h3>
+                        </div>
+                        <div class=" justify-center w-1/2 border border-fuchsia-400 border-3 p-[20px] rounded-[30px]">
+                            <img class="h-[30px] w-[30px]  "
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/education.png" alt=""
+                                srcset="">
+                            <h1 class="text-center font-extrabold text-fuchsia-950">Experience</h1>
+                            <h2 class="text-center text-fuchsia-400">2+ Years</h2>
+                            <h3 class="text-center text-fuchsia-400">Frontend Development</h3>
+                        </div>
+                    </div>
+                    <div class="text-fuchsia-950">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium molestiae delectus placeat
+                        consequatur minus, maxime debitis, mollitia illum velit porro ex illo id dignissimos quis itaque
+                        modi repellat? Consequatur impedit dolore aliquid ipsam sapiente provident nostrum libero
+                        maiores porro reiciendis.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="experience" class="experience__section flex justify-center my-[100px]">
+        <div class="w-[80%]">
+            <p class="text-center text-indigo-900">
+                Explore My
+            </p>
+            <h1
+                class="text-center decoration-double underline decoration-indigo-900 decoration-2 underline-offset-8 text-indigo-900 text-6xl text-bold my-[15px]">
+                Experience
+            </h1>
+
+            <div class="flex-col md:flex-row flex justify-center gap-[30px] my-[50px]">
+                <div class="justify-center md:w-[400px] border border-gray-400 border-3 p-[25px] rounded-[30px]">
+                    <h1 class="text-center text-indigo-500 text-[22px] md:text-3xl text-bold mb-[20px]">
+                        Frontend Development
+                    </h1>
+                    <div class="md:flex flex-wrap my-auto">
+                        <div class="flex md:flex-wrap gap-[20px] justify-center w-full md:w-1/2 my-auto mx-auto">
+                            <img class=" w-[30px] h-[30px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt=""
+                                srcset="">
+                            <div>
+                                <h1 class="font-bold text-indigo-900">HTML</h1>
+                                <h1>Experienced</h1><br>
+                            </div>
+                        </div>
+                        <div class="flex gap-[20px] justify-center w-full md:w-1/2 my-auto mx-auto">
+                            <img class="w-[30px] h-[30px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt=""
+                                srcset="">
+                            <div>
+                                <h1 class="font-bold text-indigo-900">CSS
+                                </h1>
+                                <h1>Experienced</h1><br>
+                            </div>
+                        </div>
+                        <div class="flex gap-[20px] justify-center w-full md:w-1/2 my-auto mx-auto">
+                            <img class="w-[30px] h-[30px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt=""
+                                srcset="">
+                            <div>
+                                <h1 class="font-bold text-indigo-900">SASS</h1>
+                                <h1>Intermediate</h1><br>
+                            </div>
+                        </div>
+                        <div class="flex gap-[20px] justify-center w-full md:w-1/2 my-auto mx-auto">
+                            <img class="w-[30px] h-[30px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt=""
+                                srcset="">
+                            <div>
+                                <h1 class="font-bold text-indigo-900">JavaScript</h1>
+                                <h1>Basic</h1><br>
+                            </div>
+                        </div>
+                        <div class="flex gap-[20px] justify-center w-full md:w-1/2 my-auto mx-auto">
+                            <img class="w-[30px] h-[30px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt=""
+                                srcset="">
+                            <div>
+                                <h1 class="font-bold text-indigo-900">TypeScript</h1>
+                                <h1>Basic</h1><br>
+                            </div>
+                        </div>
+                        <div class="flex gap-[20px] justify-center w-full md:w-1/2 my-auto mx-auto">
+                            <img class="w-[30px] h-[30px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt=""
+                                srcset="">
+                            <div>
+                                <h1 class="font-bold text-indigo-900">Material UI</h1>
+                                <h1>Intermediate</h1><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="justify-center md:w-[400px] border border-gray-400 border-3 p-[25px] rounded-[30px]">
+                    <h1 class="text-center text-indigo-500 text-[22px] md:text-3xl text-bold mb-[20px]">
+                        Frontend Development
+                    </h1>
+                    <div class="flex flex-wrap my-auto px-[10px]">
+                        <div class="flex md:flex-wrap gap-[20px] justify-center w-full md:w-1/2 my-auto mx-auto">
+                            <img class=" w-[30px] h-[30px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt=""
+                                srcset="">
+                            <div>
+                                <h1 class="font-bold text-indigo-900">HTML</h1>
+                                <h1>Experienced</h1><br>
+                            </div>
+                        </div>
+                        <div class="flex md:flex-wrap gap-[20px] justify-center w-full md:w-1/2 my-auto mx-auto">
+                            <img class=" w-[30px] h-[30px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt=""
+                                srcset="">
+                            <div>
+                                <h1 class="font-bold text-indigo-900">HTML</h1>
+                                <h1>Experienced</h1><br>
+                            </div>
+                        </div>
+                        <div class="flex md:flex-wrap gap-[20px] justify-center w-full md:w-1/2 my-auto mx-auto">
+                            <img class=" w-[30px] h-[30px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt=""
+                                srcset="">
+                            <div>
+                                <h1 class="font-bold text-indigo-900">HTML</h1>
+                                <h1>Experienced</h1><br>
+                            </div>
+                        </div>
+                        <div class="flex md:flex-wrap gap-[20px] justify-center w-full md:w-1/2 my-auto mx-auto">
+                            <img class=" w-[30px] h-[30px]"
+                                src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt=""
+                                srcset="">
+                            <div>
+                                <h1 class="font-bold text-indigo-900">HTML</h1>
+                                <h1>Experienced</h1><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <div id="project" class="project__section  flex justify-center my-[100px]">
+        <div class="w-[80%] mt-[30px]">
+            <p class="text-center text-pink-700">
+                Browse My Recent
+            </p>
+            <h1
+                class="text-center text-pink-950 decoration-double underline decoration-pink-950 decoration-2 underline-offset-8 text-6xl text-bold my-[15px]">
+                Projects
+            </h1>
+
+            <div class="flex flex-col md:flex-row w-full gap-[30px] my-[50px]">
+                <div class="w-[300px] md:w-1/3 border border-pink-700 border-3 px-[50px] py-[25px] rounded-[30px] justify-center">
+                    <img class="rounded-[30px] border-pink-900 border-6 border"
+                        src="https://tangerine-hummingbird-1479b6.netlify.app/assets/project-1.png" alt="" srcset="">
+                    <h1 class="text-center text-pink-950 text-2xl md:text-5xl text-bold my-[15px]">
+                        Project One
+                    </h1>
+
+                    <div class="flex gap-[20px]">
+                        <button
+                            class="w-1/2 border text-bold border-3 rounded-full border-pink-950 transition ease-in-out delay-150 bg-gradient-to-r from-cyan-500 to-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-gradient-to-r from-cyan-500 to-blue-500  duration-300">
+                            Github
+                        </button>
+                        <button
+                            class="w-1/2 border text-bold border-3 rounded-full border-pink-950 transition ease-in-out delay-150 bg-gradient-to-r from-cyan-500 to-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-gradient-to-r from-cyan-500 to-blue-500  duration-300">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="w-[300px] md:w-1/3 border border-pink-700 border-3 px-[50px] py-[25px] rounded-[30px]">
+                    <img class="rounded-[30px] border-pink-950 border border-3"
+                        src="https://tangerine-hummingbird-1479b6.netlify.app/assets/project-2.png" alt="" srcset="">
+                    <h1 class="text-center text-5xl text-bold my-[15px] text-pink-950">
+                        Project Two
+                    </h1>
+
+                    <div class="flex gap-[20px]">
+                        <button
+                            class="w-1/2 border border-pink-950 text-pink-950 text-[12px] text-bold border-3 rounded-full hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:border-pink-950 hover:text-white">
+                            Github
+                        </button>
+                        <button
+                            class="w-1/2 border border-pink-950 text-pink-950 text-[12px] text-bold border-3 rounded-full hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:border-pink-950 hover:text-white py-[12px]">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+
+
+                <div class="w-[300px] md:w-1/3 border border-pink-700 border-3 px-[50px] py-[25px] rounded-[30px]">
+                    <img class="rounded-[30px] border-pink-950 border border-3"
+                        src="https://tangerine-hummingbird-1479b6.netlify.app/assets/project-3.png" alt="" srcset="">
+                    <h1 class="text-center text-5xl text-bold my-[15px] text-pink-950">
+                        Project Three
+                    </h1>
+
+                    <div class="flex gap-[20px]">
+                        <button
+                            class="w-1/2 border text-[12px] border-pink-950 text-pink-950 border-3 rounded-full hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:text-white hover:border-pink-950">
+                            Github
+                        </button>
+                        <button
+                            class="w-1/2 border text-[12px] border-pink-950 text-pink-950 border-3 rounded-full py-[12px] hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:text-white hover:border-pink-950">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="project__section justify-center flex my-[100px]">
+        <div class="w-[350px] mt-[30px]">
+            <h1 class="my-[20px] text-center">
+                Get in Touch
+            </h1>
+            <h2 class="text-3xl pb-[30px] font-extrabold text-center gap-[30px]">Contact Me</h2>
+            <div class="flex rounded-[30px] border border-3 border-black items-center justify-center h-[70px]">
+                <img class="h-[30px] animate-spin w-[30px]"
+                    src="https://tangerine-hummingbird-1479b6.netlify.app/assets/email.png" alt="" srcset="">
+                <p class="pl-[10px] hover:text-gray-400 hover:underline hover:underline-offset-[20px]">Example@gmail.com
+                </p>
+                <img class="h-[25px] w-[40px] pl-[20px]"
+                    src="https://tangerine-hummingbird-1479b6.netlify.app/assets/linkedin.png" alt="" srcset="">
+                <p class="pl-[10px] hover:text-gray-400 hover:underline hover:underline-offset-[20px]">LinkedIn</p>
+            </div>
+            <div>
+                <ul class="flex justify-center pt-[200px] pb-[50px]">
+                    <li
+                        class="ml-2 md:ml-5 text-1xl md:text-2xl lg:text-3xl text-purple-950 hover:text-gray-400 hover:underline hover:underline-offset-[20px]">
+                        <a href="#about">About</a>
+                    </li>
+                    <li
+                        class="ml-2 md:ml-5 text-1xl md:text-2xl lg:text-3xl text-purple-950 hover:text-gray-400 hover:underline hover:underline-offset-[20px]">
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li
+                        class="ml-2 md:ml-5 text-1xl md:text-2xl lg:text-3xl text-purple-950 hover:text-gray-400 hover:underline hover:underline-offset-[20px]">
+                        <a href="#project">Project</a>
+                    </li>
+                    <li
+                        class="ml-2 md:ml-5 text-1xl md:text-2xl lg:text-3xl text-purple-950 hover:text-gray-400 hover:underline hover:underline-offset-[20px]">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <h1 class="text-[10px] text-center md: text-[15px]">
+                Copyright © 2023 John Doe. All Rights Reserved.
+            </h1>
+        </div>
+    </div>
+<script src="./app.js"></script>
+</body>
+
+</html>
